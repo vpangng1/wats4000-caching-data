@@ -13,6 +13,7 @@ let options = {
 
 Vue.use(VueLocalStorage, options);
 
+Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
