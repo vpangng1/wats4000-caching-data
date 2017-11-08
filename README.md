@@ -31,11 +31,13 @@ our goals.
 **Note:** Additional information about completing this project can be found in
 the [Practical JavaScript 2: Building Applications](https://shawnr.gitbooks.io/practical-javascript-2-building-applications/content/caching-data/project-caching-data.html) book.
 
+**NOTE:** This project requires an API key from [OpenWeatherMap.org](https://openweathermap.org).
+
 ## Basic Requirements
 In order to successfully complete this project, we must fulfill the following requirements.
 
 * Sign up to [OpenWeatherMap.org](https://openweathermap.org/) and generate an API Key.
-* Paste your API Key (which will be used as the `APPID` parameter) into the appropriate locations in the `CitySearch.vue`, `CurrentWeather.vue`, and `Forecast.vue` files.
+* Paste your API Key (which will be used as the `APPID` parameter) into the appropriate location in the `/src/common/api.js` file.
 
 **`main.js`**
 * Add the base configuration for `vue-ls`.
