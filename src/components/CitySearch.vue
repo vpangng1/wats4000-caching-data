@@ -56,8 +56,7 @@ export default {
   methods: {
     saveCity: function (city) {
       // TODO: Add logic to add the city to the this.favorites array and to add the city to the favoriteCities array
-      this.favorites.push(city);
-      this.$ls.set('favoriteCities', this.favorites);
+
     },
     getCities: function () {
       this.results = null;
